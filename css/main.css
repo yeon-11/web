@@ -10,4 +10,35 @@ html, html * {
 
 .mainBg {
   background-color: #ff0000 !important;
+}
+
+.slidedown {
+  width: 20%;
+  padding: 18px 0;
+}
+.slidedown .slide-down-image {
+  width: 44px;
+  padding-left: 18px;
+}
+.slidedown .slide-down-text {
+  font-size: 12px;
+  text-indent: 10px;
+  font-weight: 600;
+}
+.slidedown .slide-down-text:hover {
+  color: #e60012;
+  cursor: pointer;
+}
+
+.slidedown > img::before {
+  content: "--";
+  margin-right: 10px;
+  color: #e60012;
+}
+
+.line {
+  border-left: 1px solid #e60012;
+  width: 2px;
+  height: 34px;
+  margin-top: 14px;
 }/*# sourceMappingURL=main.css.map */
